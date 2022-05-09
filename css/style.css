@@ -10,6 +10,11 @@ body {
     color: #251D3A;
 }
 
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
 .wrapper {
     max-width: 1440px;
     height: 800px;
