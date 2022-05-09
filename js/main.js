@@ -13,5 +13,4 @@ tiles.forEach((tile) => {
 function onTileClick(i) {
     game.makeMove(i);
     gameView.updateBoard(game);
-    game.nextTurn();
 }
