@@ -62,10 +62,20 @@ h1 {
     padding-bottom: 8px;
 }
 
+.player-x.active {
+    color: #56BBF1;
+    border-color: #56BBF1;
+}
+
 .header .player-o {
     flex: 1;
     border-bottom: 5px solid #eee;
     padding-bottom: 8px;
+}
+
+.player-o.active {
+    color: #E15FED;
+    border-color: #E15FED;
 }
 
 .board {
