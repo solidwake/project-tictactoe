@@ -6,7 +6,9 @@ export default class GameView {
         this.updateTurn(game);
         for(let i = 0; i < game.board.length; i++) {
             const tile = document.querySelector(`.board-tile[data-index='${i}']`);
-            tile.textContent = game.board[i];
+
+            let tileMarker = game.board[i] == 'X' ? 'tile-x' : 'tile-o';
+            tile.innerHTML = `<span class="${tileMarker}">${game.board[i] ? game.board[i] : ""}</span>`
         }
     }
     updateTurn(game) {
