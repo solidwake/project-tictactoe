@@ -10,6 +10,10 @@ body {
     color: #251D3A;
 }
 
+.title {
+    max-width: 500px;
+}
+
 h1 {
     font-size: 70px;
     font-weight: bold;
@@ -20,8 +24,9 @@ h1 {
     height: 800px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
+    padding: 40px;
 }
 
 .restart {
@@ -118,4 +123,14 @@ h1 {
 
 .winning-tiles span {
     color: #00FFC6;
+}
+
+@media only screen and (max-width: 975px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
 }
