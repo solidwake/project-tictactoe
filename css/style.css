@@ -107,3 +107,15 @@ h1 {
 .board-tile:hover {
     background: #eee;
 }
+
+.tile-x {
+    color: #56BBF1;
+}
+
+.tile-o {
+    color: #E15FED;
+}
+
+.winning-tiles span {
+    color: #00FFC6;
+}
